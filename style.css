@@ -21,18 +21,12 @@
 }
 /* ______hero______ */
 
-/* <div class="header_hero">
-                <h1 class="header_hero-title">Denis <br> Novik</h1>
-                <p class="header_hero-information">UX | UI designer <br> 24 years old, Minsk</p>
 
-
-            </div>   */
-.header_hero{
-    /*border: 5px solid red; */
-    display: flex;
+.header_hero-list{
+    display:flex;
+    justify-content: space-between;
     width: 945px;
-    margin: 0 auto;
-    background-image : url('img/photo.svg') ;
+    margin: 0 auto
 }
 
 .header_hero-title{
@@ -41,31 +35,24 @@
     line-height: 59px;
     padding: 30px 0px ;
 }
-.header_hero-information{
+.header_hero-description{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 22px;
     padding: 110px 297px; /* получилось нечаянно */
 }
 
-.header_hero-lan{
+.header_hero-lang{
+    height:61px;
     display:flex;
-    margin-left:10px;
     padding: 61px 0px;
-    transform: rotate(270deg)
+    transform: rotate(270deg);
 }
-.header_hero-lang a{
-    font-family:'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    text-decoration: none;
+.header_gray{
     color: gray;
-    transition: color .5s ease-in-out;
 }
-
-.header_hero-lang:hover a{
-    color: black;
-    font-weight:bold
+.header__black{
+    font-weight: bold;
 }
 /* _____  section about me _____ */
 .title_about{
