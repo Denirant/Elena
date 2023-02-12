@@ -48,12 +48,24 @@
     padding: 61px 0px;
     transform: rotate(270deg);
 }
+
 .header_gray{
     color: gray;
 }
+
 .header__black{
     font-weight: bold;
 }
+
+.header_hero-img{
+    width: 943.61px;
+    height: 387px;
+    left: 250.69px;
+    top: 276.94px;
+    background-image: url('img/photo.svg');
+    margin-left: 200px;
+}
+
 /* _____  section about me _____ */
 .title_about{
     font-family: 'Roboto', sans-serif;
@@ -176,16 +188,4 @@
     text-align: center;
     color: #828282c0;
     margin-top: 45px;
-}
-
-
-
-
-
-
-
-.header_hero-img{
-    width: 500px;
-    height: 350px;
-    background-image: url('img/photo.svg');
 }
