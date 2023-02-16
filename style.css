@@ -19,7 +19,7 @@
     color: black;
     font-weight:bold
 }
-/* ______hero______ */
+
 
 
 .header_hero-list{
@@ -34,6 +34,7 @@
     font-size: 47.3392px;
     line-height: 59px;
     padding: 30px 0px ;
+    font-weight: bold;
 }
 .header_hero-description{
     font-family: 'Roboto', sans-serif;
@@ -45,12 +46,13 @@
 .header_hero-lang{
     height:61px;
     display:flex;
-    padding: 61px 0px;
+    padding-top: 61px;
     transform: rotate(270deg);
 }
 
 .header_gray{
     color: gray;
+    font-weight: bold;
 }
 
 .header__black{
@@ -58,12 +60,10 @@
 }
 
 .header_hero-img{
-    width: 943.61px;
+    width: 944px;
     height: 387px;
-    left: 250.69px;
-    top: 276.94px;
     background-image: url('img/photo.svg');
-    margin-left: 200px;
+    margin: 0 auto;
 }
 
 /* _____  section about me _____ */
